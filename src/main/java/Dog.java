@@ -1,4 +1,4 @@
-/*
+/**
 *   A class for a dog
 *   @author Eric Wang
 *   @version idk
@@ -9,7 +9,7 @@ public class Dog {
     private String breed;
     private int weight;
 
-    /*
+    /**
     * construct dogs by taking in name breed and height
     * @param name String name of dog
     * @param breed String breed of dog
@@ -22,7 +22,7 @@ public class Dog {
         this.weight = weight;
     }
 
-    /*
+    /**
     * method to get name of dog
     * @return returns name of dog as a String
      */
@@ -30,7 +30,7 @@ public class Dog {
         return name;
     }
 
-    /*
+    /**
     * method to get breed of dog
     * @return returns breed of dog as a String
      */
@@ -38,7 +38,7 @@ public class Dog {
         return breed;
     }
 
-    /*
+    /**
     * method to get weight of dog
     * @return returns weight of dog as a double
      */
@@ -46,7 +46,7 @@ public class Dog {
         return weight;
     }
 
-    /*
+    /**
     * method to set weight of dog
     * @param val double value that the weight of the dog will be set to
     */
@@ -54,7 +54,7 @@ public class Dog {
         weight = val;
     }
 
-    /*
+    /**
     * method to set breed of dog
     * @param val String value that the breed of the dog will be set to
     */
@@ -62,7 +62,7 @@ public class Dog {
         breed = val;
     }
 
-    /*
+    /**
     * method to set name of dog
     * @param val String value that the name of the dog will be set to
     */
